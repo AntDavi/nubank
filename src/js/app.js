@@ -68,4 +68,3 @@ const showMenu = (toggleId, navId) => {
 
 showMenu('bx', 'menu-mobile')
 
-//Ativação do menu mobile

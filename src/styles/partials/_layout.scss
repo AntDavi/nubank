@@ -8,7 +8,7 @@ $container-s: 540px;
 
 // Mixin of media-queries
 @mixin responsive($device) {
-    @if $device ==xl {
+    @if $device == xl {
 
         // For resolutions upper 1440px
         @media screen and (min-width: $container-xl) {
@@ -16,7 +16,7 @@ $container-s: 540px;
         }
     }
 
-    @else if $device ==l {
+    @else if $device == l {
 
         // For resolutions between 1140px and 1440px
         @media screen and (max-width: $container-xl) and (min-width: $container-l) {
@@ -24,7 +24,7 @@ $container-s: 540px;
         }
     }
 
-    @else if $device ==m {
+    @else if $device == m {
 
         // For resolutions between 960px and 1440px
         @media screen and (max-width: $container-l) and (min-width: $container-s) {
@@ -32,7 +32,7 @@ $container-s: 540px;
         }
     }
 
-    @else if $device ==s {
+    @else if $device == s {
 
         // For resolutions less than 960px
         @media screen and (max-width: $container-m) {
@@ -40,7 +40,7 @@ $container-s: 540px;
         }
     }
 
-    @else if $device ==xs {
+    @else if $device == xs {
 
         // For resolutions less than 540px
         @media screen and (max-width: $container-s) {
