@@ -946,12 +946,101 @@ header {
   width: 100%;
 }
 
+.box {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0px 24px;
+}
+
+.container-swiper {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 96px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.swiper-slide {
+  max-width: 420px;
+  padding: 24px 36px;
+  border-radius: 50px;
+  margin: 0px 16px;
+  background-color: #f7f2fa;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.button-next {
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background-image: url("../assets/svg/icon-arrow.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.button-prev {
+  margin-top: 1px;
+  position: absolute;
+  top: 24px;
+  right: 88px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background-image: url("../assets/svg/icon-arrow.svg");
+  transform: rotate(180deg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.photo-profile {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.photo1 {
+  background-image: url(../assets/img/people1.png);
+}
+
+.photo2 {
+  background-image: url(../assets/img/people2.png);
+}
+
+.photo3 {
+  background-image: url(../assets/img/people3.png);
+}
+
+.photo4 {
+  background-image: url(../assets/img/people4.png);
+}
+
+.photo5 {
+  background-image: url(../assets/img/people5.png);
+}
+
 .dropshadow {
   filter: drop-shadow(0px 8px 25px rgba(169, 80, 196, 0.25));
 }
 
 .bg-icon-mobile::after {
-  background-image: url("../svg/icon-mobile.svg");
+  background-image: url("../assets/svg/icon-mobile.svg");
   background-size: cover;
   transition: 0.5s ease;
   cursor: pointer;
@@ -962,7 +1051,7 @@ header {
 }
 
 .bg-icon-time::after {
-  background-image: url("../svg/icon-time.svg");
+  background-image: url("../assets/svg/icon-time.svg");
   background-size: cover;
   transition: 0.5s ease;
   cursor: pointer;
@@ -973,7 +1062,7 @@ header {
 }
 
 .bg-icon-config::after {
-  background-image: url("../svg/icon-config.svg");
+  background-image: url("../assets/svg/icon-config.svg");
   background-size: cover;
   transition: 0.5s ease;
   cursor: pointer;
@@ -984,7 +1073,7 @@ header {
 }
 
 .bg-icon-contactless::after {
-  background-image: url("../svg/icon-contactless.svg");
+  background-image: url("../assets/svg/icon-contactless.svg");
   background-size: cover;
   transition: 0.5s ease;
   cursor: pointer;
@@ -995,7 +1084,7 @@ header {
 }
 
 .bg-icon-card::after {
-  background-image: url("../svg/icon-card.svg");
+  background-image: url("../assets/svg/icon-card.svg");
   background-size: cover;
   transition: 0.5s ease;
   cursor: pointer;

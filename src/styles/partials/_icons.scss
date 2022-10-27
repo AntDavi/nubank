@@ -4,7 +4,7 @@
 
 .bg-icon-mobile {
     &::after {
-        background-image: url("../svg/icon-mobile.svg");
+        background-image: url("../assets/svg/icon-mobile.svg");
         background-size: cover;
         transition: 0.5s ease;
         cursor: pointer;
@@ -20,7 +20,7 @@
 
 .bg-icon-time {
     &::after {
-        background-image: url("../svg/icon-time.svg");
+        background-image: url("../assets/svg/icon-time.svg");
         background-size: cover;
         transition: 0.5s ease;
         cursor: pointer;
@@ -36,7 +36,7 @@
 
 .bg-icon-config {
     &::after {
-        background-image: url("../svg/icon-config.svg");
+        background-image: url("../assets/svg/icon-config.svg");
         background-size: cover;
         transition: 0.5s ease;
         cursor: pointer;
@@ -52,7 +52,7 @@
 
 .bg-icon-contactless {
     &::after {
-        background-image: url("../svg/icon-contactless.svg");
+        background-image: url("../assets/svg/icon-contactless.svg");
         background-size: cover;
         transition: 0.5s ease;
         cursor: pointer;
@@ -68,7 +68,7 @@
 
 .bg-icon-card {
     &::after {
-        background-image: url("../svg/icon-card.svg");
+        background-image: url("../assets/svg/icon-card.svg");
         background-size: cover;
         transition: 0.5s ease;
         cursor: pointer;
