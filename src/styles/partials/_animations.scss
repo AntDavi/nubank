@@ -322,3 +322,22 @@ $width-card: 0.64 * $height-card;
         fill-opacity: 0.4;
     }
 }
+
+//FIGNU4
+
+.fignu4-letter-u, .fignu4-letter-n {
+    animation: fig4-letter 5s ease infinite alternate;
+}
+
+@keyframes fig4-letter {
+    0% {
+        stroke-width: 4;
+        stroke-dasharray: 0 400;
+        stroke-opacity: 0;
+    }
+    60%, 100% {
+        stroke-width: 4;
+        stroke-dasharray: 400 0;
+        stroke-opacity: 1;
+    }
+}
