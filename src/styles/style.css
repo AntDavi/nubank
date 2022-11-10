@@ -29,6 +29,12 @@
   }
 }
 
+.flex-spacebetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .flex-start {
   display: flex;
   justify-content: flex-start;
@@ -226,6 +232,10 @@
 
 footer {
   background: linear-gradient(220.94deg, #A950C4 14.43%, #8E15CB 85.28%);
+}
+
+.bt-purple {
+  border-top: 1px solid #bb71d2;
 }
 
 h1 {
@@ -1170,6 +1180,11 @@ header {
 }
 .icon:hover {
   transform: scale(1.05);
+}
+
+.icons-networks {
+  max-width: 48px;
+  padding: 8px;
 }
 
 .div-card {
