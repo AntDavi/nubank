@@ -341,3 +341,18 @@ $width-card: 0.64 * $height-card;
         stroke-opacity: 1;
     }
 }
+
+//FIGNU5
+
+.fignu5-ball1{
+    animation: translate-ball 4s ease infinite alternate;
+}
+
+@keyframes translate-ball {
+    0% {
+        transform: translate3d(0,0,0);
+    }
+    100% {
+        
+    }
+}
