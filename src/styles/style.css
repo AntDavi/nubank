@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.color-white {
+  color: #fefbff;
+}
+
+.weight-light {
+  font-weight: 300;
+}
+
 .container {
   max-width: 1440px;
   margin: 0 auto;
@@ -31,6 +39,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.flex-top {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .flex-column {
@@ -202,6 +216,16 @@
 
 .list {
   list-style: none;
+}
+.list li {
+  margin-bottom: 12px;
+}
+.list a {
+  color: #bb71d2;
+}
+
+footer {
+  background: linear-gradient(220.94deg, #A950C4 14.43%, #8E15CB 85.28%);
 }
 
 h1 {
